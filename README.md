@@ -34,10 +34,17 @@ Due to GitHub file size limitations, the dataset is not included in this reposit
 Download the dataset here:
 👉 [ https://drive.google.com/drive/folders/1nUcQ16lKCbDj6nwnsMcUyD0ITqsw9XBo?usp=sharing ]
 
-Steps to run the project:
-1. Download and extract the dataset
-2. Place all CSV files inside the `data/` folder
-3. Ensure the structure is:
+## Steps to run the project
+
+1. Download and extract the dataset  
+2. Place all CSV files inside the `data/` folder  
+3. Run the notebooks  
+
+---
+
+## 📝 Note
+Notebooks are placed in the root directory for ease of use. Simply download the dataset, place it in the `data/` folder, and run the notebooks without modifying any file paths.
+
 
 ```
 data/
