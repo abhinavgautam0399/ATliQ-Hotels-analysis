@@ -2,7 +2,7 @@
 # 📊 AtliQ Hotels Data Analysis (EDA Project)
 
 ## 🚀 Project Overview
-This project analyzes booking-level data from AtliQ Hotels to uncover actionable business insights. The objective is to identify revenue drivers, customer behavior patterns, and operational inefficiencies using Exploratory Data Analysis (EDA).
+This project analyzes booking-level data from AtliQ Hotels to uncover key revenue drivers, customer behavior patterns, and hidden business inefficiencies impacting profitability.
 
 ---
 
