@@ -27,6 +27,25 @@ To run this project locally:
 
 (Optional: You can use your own dataset with a similar structure.)
 
+## 📥 Dataset Access
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
+
+Download the dataset here:
+👉 [https://drive.google.com/drive/folders/1nUcQ16lKCbDj6nwnsMcUyD0ITqsw9XBo?usp=sharing]
+
+Steps to run the project:
+1. Download and extract the dataset
+2. Place all CSV files inside the `data/` folder
+3. Ensure the structure is:
+
+data/
+   ├── dim_date.csv
+   ├── dim_hotels.csv
+   ├── dim_rooms.csv
+   ├── fact_aggregated_bookings.csv
+   ├── final_dataset.csv
+
 ## 🔍 Dataset Understanding
 
 Each row represents a **single booking transaction**, enabling:
