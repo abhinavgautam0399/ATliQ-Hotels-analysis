@@ -39,8 +39,14 @@ Steps to run the project:
 2. Place all CSV files inside the `data/` folder
 3. Ensure the structure is:
 
-data/ ├── dim_date.csv ├── dim_hotels.csv ├── dim_rooms.csv ├── fact_aggregated_bookings.csv └── final_dataset.csv
-
+```
+data/
+├── dim_date.csv
+├── dim_hotels.csv
+├── dim_rooms.csv
+├── fact_aggregated_bookings.csv
+└── final_dataset.csv
+```
 ## 🔍 Dataset Understanding
 
 Each row represents a **single booking transaction**, enabling:
@@ -115,9 +121,26 @@ Each row represents a **single booking transaction**, enabling:
 By improving cancellation control, enhancing customer experience, and optimizing booking strategies, AtliQ Hotels can significantly boost both revenue and operational efficiency.
 
 ---
-
 ## 📁 Project Structure
-ATliQHotelsEDA/ │ ├── data/ │   ├── dim_date.csv │   ├── dim_hotels.csv │   ├── dim_rooms.csv │   ├── fact_aggregated_bookings.csv │   └── final_dataset.csv │ ├── outputs/ │   └── charts/ │ ├── AtliqHotelsEDA.ipynb ├── AtliQHotelsAnalysis.ipynb ├── README.md └── requirements.txt
+
+```
+ATliQHotelsEDA/
+│
+├── data/
+│   ├── dim_date.csv
+│   ├── dim_hotels.csv
+│   ├── dim_rooms.csv
+│   ├── fact_aggregated_bookings.csv
+│   └── final_dataset.csv
+│
+├── outputs/
+│   └── charts/
+│
+├── AtliqHotelsEDA.ipynb
+├── AtliQHotelsAnalysis.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ## 🎯 Outcome
 
