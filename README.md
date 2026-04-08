@@ -17,6 +17,15 @@ The dataset contains **booking-level transactions** across multiple hotel proper
 - **Segmentation:** city, room_category, booking_platform  
 
 ---
+## ⚠️ Dataset Note
+
+The dataset is not included in this repository due to its large size.
+
+To run this project locally:
+- Place the dataset inside the `data/` folder
+- Ensure the file name is: `final_dataset.csv`
+
+(Optional: You can use your own dataset with a similar structure.)
 
 ## 🔍 Dataset Understanding
 
