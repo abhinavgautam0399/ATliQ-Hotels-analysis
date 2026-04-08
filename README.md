@@ -39,13 +39,7 @@ Steps to run the project:
 2. Place all CSV files inside the `data/` folder
 3. Ensure the structure is:
 
-data/
-│
-├── dim_date.csv  
-├── dim_hotels.csv  
-├── dim_rooms.csv  
-├── fact_aggregated_bookings.csv  
-└── final_dataset.csv
+data/ ├── dim_date.csv ├── dim_hotels.csv ├── dim_rooms.csv ├── fact_aggregated_bookings.csv └── final_dataset.csv
 
 ## 🔍 Dataset Understanding
 
@@ -123,20 +117,7 @@ By improving cancellation control, enhancing customer experience, and optimizing
 ---
 
 ## 📁 Project Structure
-AtliQ-Hotels-EDA/
-│
-├── data/
-│   └── final_dataset.csv          # Cleaned dataset
-│
-├── notebooks/
-│   └── AtliQHotelsEDA.ipynb      # EDA & visualizations
-│
-├── outputs/
-│   └── charts/                   # Saved graphs & plots
-│
-├── README.md                     # Project documentation
-├── requirements.txt              # Dependencies
-
+ATliQHotelsEDA/ │ ├── data/ │   ├── dim_date.csv │   ├── dim_hotels.csv │   ├── dim_rooms.csv │   ├── fact_aggregated_bookings.csv │   └── final_dataset.csv │ ├── outputs/ │   └── charts/ │ ├── AtliqHotelsEDA.ipynb ├── AtliQHotelsAnalysis.ipynb ├── README.md └── requirements.txt
 
 ## 🎯 Outcome
 
