@@ -32,7 +32,7 @@ To run this project locally:
 Due to GitHub file size limitations, the dataset is not included in this repository.
 
 Download the dataset here:
-👉 [https://drive.google.com/drive/folders/1nUcQ16lKCbDj6nwnsMcUyD0ITqsw9XBo?usp=sharing]
+👉 [ https://drive.google.com/drive/folders/1nUcQ16lKCbDj6nwnsMcUyD0ITqsw9XBo?usp=sharing ]
 
 Steps to run the project:
 1. Download and extract the dataset
