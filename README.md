@@ -40,11 +40,12 @@ Steps to run the project:
 3. Ensure the structure is:
 
 data/
-   ├── dim_date.csv
-   ├── dim_hotels.csv
-   ├── dim_rooms.csv
-   ├── fact_aggregated_bookings.csv
-   ├── final_dataset.csv
+│
+├── dim_date.csv  
+├── dim_hotels.csv  
+├── dim_rooms.csv  
+├── fact_aggregated_bookings.csv  
+└── final_dataset.csv
 
 ## 🔍 Dataset Understanding
 
