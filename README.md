@@ -38,7 +38,7 @@ Download the dataset here:
 
 1. Download and extract the dataset  
 2. Place all CSV files inside the `data/` folder  
-3. Run the notebooks  
+3. 3. Run `AtliqHotelsEDA.ipynb` or `AtliQHotelsAnalysis.ipynb`  
 
 ---
 
