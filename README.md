@@ -1,38 +1,47 @@
 
 # 📊 AtliQ Hotels Data Analysis (EDA Project)
 
+_End-to-end Exploratory Data Analysis project focused on uncovering revenue drivers, identifying leakage, and delivering actionable business insights to improve hotel profitability._
+
 ## 🚀 Project Overview
-This project analyzes booking-level data from AtliQ Hotels to uncover key revenue drivers, customer behavior patterns, and hidden business inefficiencies impacting profitability.
+
+This project analyzes booking-level data from AtliQ Hotels to uncover:
+
+- Revenue leakage due to cancellations and no-shows  
+- Customer behavior patterns and booking trends  
+- Platform dependency and performance  
+- City-wise revenue distribution  
+- Pricing and demand insights  
+
+The goal is to translate raw data into meaningful insights and business recommendations.
 
 ---
 
-## 📂 Dataset Description
+## 🎯 Business Objective
 
-The dataset contains **booking-level transactions** across multiple hotel properties and cities.
+Analyze hotel booking data to identify inefficiencies, optimize pricing strategies, improve occupancy, and enhance overall revenue performance.
+
+---
+
+## 📁 Dataset Description
+
+The dataset contains booking-level transaction data across multiple hotel properties and cities.
 
 ### 🔑 Key Features:
 - **Booking Details:** booking_id, booking_date, check_in_date, checkout_date  
 - **Customer Info:** no_guests, ratings_given  
-- **Business Metrics:** revenue_generated, revenue_realized  
+- **Revenue Metrics:** revenue_generated, revenue_realized  
 - **Segmentation:** city, room_category, booking_platform  
 
 ---
+
 ## ⚠️ Dataset Note
-
-The dataset is not included in this repository due to its large size.
-
-To run this project locally:
-- Place the dataset inside the `data/` folder
-- Ensure the file name is: `final_dataset.csv`
-
-(Optional: You can use your own dataset with a similar structure.)
-
-## 📥 Dataset Access
 
 Due to GitHub file size limitations, the dataset is not included in this repository.
 
-Download the dataset here:
-👉 [ https://drive.google.com/drive/folders/1nUcQ16lKCbDj6nwnsMcUyD0ITqsw9XBo?usp=sharing ]
+### 📥 Dataset Access:
+Download from here:  
+👉 https://drive.google.com/drive/folders/1nUcQ16IKCbDj6nwnsMcUyDOITqsw9XBo?usp=sharing
 
 ## Steps to run the project
 
@@ -65,65 +74,104 @@ Each row represents a **single booking transaction**, enabling:
 
 ---
 
+## 🧠 Key KPIs Analyzed
+
+- Revenue Generated vs Revenue Realized  
+- Cancellation & No-show Impact (Revenue Leakage)  
+- Occupancy Trends (Weekday vs Weekend)  
+- Platform Contribution to Revenue  
+- City-wise Revenue Performance  
+
+---
+
+## 🔍 Data Cleaning & Preprocessing
+
+- Converted date columns into proper datetime format  
+- Handled inconsistent date formats using `errors='coerce'`  
+- Removed duplicate records to maintain data integrity  
+- Identified missing values across key columns for analysis  
+
+---
+
+## ⚙️ Feature Engineering
+
+New features were created to enhance analysis:
+
+- **month:** Extracted from booking_date to analyze seasonality  
+- **day_type:** Classified bookings into Weekday / Weekend  
+
+---
+
+## 🔎 Business Use Cases
+
+Each booking record enables:
+
+- Revenue leakage analysis (cancellations & no-shows)  
+- Platform performance evaluation  
+- City-level performance tracking  
+- Customer behavior insights  
+
+---
+
 ## 📊 Key Analysis Performed
 
-### 1️⃣ Occupancy Analysis
+### 📈 Occupancy Analysis
 - Compared weekday vs weekend bookings  
-- Found significantly higher demand on weekends  
+- Observed significantly higher demand on weekends  
 
-### 2️⃣ City-wise Performance
+### 🌆 City-wise Performance
 - Evaluated revenue across cities  
 - Identified top-performing cities (Mumbai, Delhi)  
 
-### 3️⃣ Revenue Trends
+### 📅 Revenue Trends
 - Analyzed booking trends over time  
 - Identified seasonality and peak demand periods  
 
-### 4️⃣ Booking Platform Analysis
+### 💻 Booking Platform Analysis
 - Majority revenue comes from third-party platforms  
-- Direct bookings contribute less  
+- Direct bookings contribute significantly less  
 
-### 5️⃣ Customer Ratings Analysis
-- Ratings mostly range between **3.5 – 3.8**  
+### ⭐ Customer Ratings Analysis
+- Ratings mostly range between 3.5 – 4.0  
 - Indicates moderate customer satisfaction  
 
-### 6️⃣ Revenue Leakage Analysis
-- Significant revenue loss due to **cancellations & no-shows**  
+### 💸 Revenue Leakage Analysis
+- Significant revenue loss due to cancellations and no-shows  
 
 ---
 
 ## 💡 Business Insights
 
-- 📈 Weekend bookings are significantly higher than weekdays  
-- 🏙️ Mumbai and Delhi generate the highest revenue  
-- 🌐 Heavy dependency on third-party booking platforms  
-- ⭐ Customer ratings influence revenue realization  
-- ⚠️ Revenue leakage is a critical profitability issue  
+- Weekend bookings are significantly higher than weekdays  
+- Mumbai and Delhi generate the highest revenue  
+- Heavy dependency on third-party booking platforms  
+- Customer ratings influence revenue realization  
+- Revenue leakage is a critical profitability issue  
 
 ---
 
-## 🧠 Business Recommendations
+## 📌 Business Recommendations
 
-- 💰 Increase pricing strategically during weekends  
-- 📢 Improve weekday occupancy through targeted campaigns  
-- 🎯 Focus marketing on high-performing cities  
+- 🔥 Increase pricing strategically during weekends  
+- 📉 Improve weekday occupancy through targeted campaigns  
+- 🎯 Focus marketing efforts on high-performing cities  
 - 🔗 Promote direct bookings to reduce platform dependency  
-- 🌟 Enhance customer experience to improve ratings  
-- 🛑 Implement stricter cancellation policies  
+- ⭐ Enhance customer experience to improve ratings  
+- 🚫 Implement stricter cancellation policies  
 
 ---
 
-## 📌 Key Highlights
+## 🚀 Key Highlights
 
-- ✔️ Revenue leakage directly impacts profitability  
-- ✔️ Strong weekend demand pattern  
-- ✔️ Customer experience drives revenue  
-- ✔️ High dependency on third-party platforms  
-- ✔️ Clear booking seasonality trends  
+- ✔ Revenue leakage directly impacts profitability  
+- ✔ Strong weekend demand pattern  
+- ✔ Customer experience drives revenue  
+- ✔ High dependency on third-party platforms  
+- ✔ Clear booking seasonality trends  
 
 ---
 
-## 🏁 Final Thoughts
+## 🧾 Final Thoughts
 
 By improving cancellation control, enhancing customer experience, and optimizing booking strategies, AtliQ Hotels can significantly boost both revenue and operational efficiency.
 
